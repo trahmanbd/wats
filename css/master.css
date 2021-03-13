@@ -1,0 +1,41 @@
+@keyframes ltr{
+	from{
+		left: -200px;
+	}
+	to{
+		right: 0;
+	}
+}
+@keyframes rtl{
+	from{
+		right: -200px;
+	}
+	to{
+		left: 0;
+	}
+}
+@keyframes ttb{
+	from{
+		top: -200px;
+	}
+	to{
+		bottom: 0;
+	}
+}
+@keyframes btt{
+	from{
+		bottom: -200px;
+	}
+	to{
+		top: 0;
+	}
+}
+
+.col-left{
+	position: relative;
+	animation: ltr 1s;
+}
+.col-right{
+	position: relative;
+	animation: rtl 1s;
+}
