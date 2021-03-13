@@ -85,6 +85,12 @@ body{
   .top-right-col{
     width: 100%;
   }
+  .col-mid{
+  margin-top: 0px !important;
+  }
+  .wp-title{
+    margin-top: 10%;
+  }
 }
 
 
@@ -245,11 +251,11 @@ body{
   color: rgba(244, 187, 12);
 }
 .service-col:hover h4{
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
   transition: all .3s;
 }
 .service-col:hover a{
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
   transition: all .3s;
 }
 
@@ -437,9 +443,18 @@ body{
   background-color: rgba(0,33,85);
   padding: 5%;
 }
+.contact-left-col h3{
+  color: #fff;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .form-control{
   margin-bottom: 2%;
   width: 70%;
+}
+.contact-right-col{
+  padding-top: 5%;
 }
 .contact-item{
   position: relative;
@@ -529,7 +544,7 @@ body{
   margin-bottom: 2%;
 }
 .feature-item{
-  margin: 5% 0;
+  margin: 10% 0;
 }
 .feature-item-icon{
   font-size: 25px;
