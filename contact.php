@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
 	$txt = "You have received an e-mail from ".$name.".\n\n".$number.".\n\n".$message;
 
 	mail($mailTo, $subject, $txt);
-	header("Location: php/mailsend.html");
+	header("Location: index.php");
 }
 
 ?>
